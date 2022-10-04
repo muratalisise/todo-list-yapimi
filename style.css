@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    font-family: 'Questrial', sans-serif;
+}
+ 
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+ 
+#container {
+    padding: 12px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: auto;
+}
+ .box{
+     background-color: rgb(21, 255, 0);
+         margin: 40% 0;
+
+ }
+#newtaskbox {
+    width: 95%;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 5px;
+}
+ 
+#header {
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding: 15px;
+    background: #F7F7F7;
+}
+ 
+#body {
+    width: 100%;
+    padding: 30px 15px 15px 15px;
+    display: inline-block;
+}
+ 
+input {
+    display: inline-block;
+    width: calc(100% - 40px);
+    height: 35px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    padding-left: 10px;
+}
+ 
+#buton {
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    background: #007bff;
+    color: white;
+    position: absolute;
+    font-size: 25px;
+ 
+}
+ 
+#buton:hover {
+    cursor: pointer;
+    background: #0069D9;
+ 
+}
+ 
+#tasklistbox {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+ 
+#listheader {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, .125);
+    background: #F7F7F7;
+    padding: 15px 20px 20px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+ 
+#hepsinisil{
+    float: right;
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #dc3545;
+    padding: 5px 10px;
+    color: #dc3545;
+}
+ 
+#hepsinisil:hover{
+    background: #dc3545;
+    color: white;
+    cursor: pointer;
+    transition: .3s all;
+}
+ 
+li{
+    list-style: none;
+    width: 100%;
+    padding: 10px 20px 10px 15px;
+    background: #F7F7F7;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+ 
+i{
+    float: right;
+    color: gray;
+}
+ 
+i:hover{
+    color: black;
+    transition: .3s all;
+    cursor: pointer;
+}
