@@ -22,9 +22,10 @@ h1{
     height: auto;
 }
  .box{
-     background-color: rgb(21, 255, 0);
-         margin: 40% 0;
-
+    background-color: rgba(175, 85, 1, 0.24);
+    margin: 40% 0;
+    border-radius: 10px;
+    padding: 20px 0;
  }
 #newtaskbox {
     width: 95%;
